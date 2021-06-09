@@ -1,0 +1,59 @@
+{
+  "name": "backend",
+  "version": "0.0.1",
+  "dependencies": {
+    "aws-sdk": "2.x.x",
+    "bcrypt": "2.0.1",
+    "body-parser": "1.x.x",
+    "braintree": "2.x.x",
+    "compression": "1.x.x",
+    "connect": "3.x.x",
+    "cookie-session": "2.0.0-beta.3",
+    "csv": "3.x.x",
+    "currency-formatter": "*",
+    "dayjs": "1.x.x",
+    "dotenv": "^8.2.0",
+    "errorhandler": "1.x.x",
+    "event-stream": "*",
+    "express": "4.x.x",
+    "express-enforces-ssl": "1.x.x",
+    "helmet": "3.x.x",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "3.x.x",
+    "morgan": "1.x.x",
+    "multer": "1.x.x",
+    "nodemailer": "^6.5.0",
+    "passport": "0.4.x",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "1.x.x",
+    "path": "0.12.x",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "request": "2.x.x",
+    "request-promise": "4.x.x",
+    "sequelize": "^6.6.2",
+    "sequelize-cli": "^6.2.0",
+    "shopify-node-api": "1.9.0",
+    "showdown": "*",
+    "sparkpost": "2.x.x",
+    "striptags": "*",
+    "underscore": "1.x.x",
+    "validator": "10.x.x"
+  },
+  "engines": {
+    "node": "10.x.x",
+    "npm": "6.x.x"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "main": "api-braintree.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
